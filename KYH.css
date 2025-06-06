@@ -1,0 +1,177 @@
+/* Header Container */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    padding: 0 40px;
+    background: linear-gradient( 90deg, #000000, /* deep black */
+    #1a1a1a, /* dark charcoal */
+    #2f2e2e, /* medium gray highlight */
+    #1a1a1a, /* dark charcoal */
+    #000000/* deep black */
+    );
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+
+/* Logo */
+
+.header-container h2 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 900;
+    color: white;
+    background-color: #ff4d4d;
+    width: 120px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin: 0;
+    border-radius: 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Marquee Text */
+
+.header-container marquee h1 {
+    color: #ffffff;
+    font-family: "Orbitron", sans-serif;
+    font-size: 28px;
+    margin: 0 30px;
+}
+
+
+/* Login/Reg Button */
+
+.LogReg {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.LogReg h1 {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #007f7f;
+    font-size: 18px;
+    font-family: "Mulish", sans-serif;
+    transition: all 0.3s ease;
+    margin-right: 90px;
+}
+
+.LogReg h1:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #08403f;
+    color: #fff101;
+}
+
+
+/* Navigation Links */
+
+.navigation-links {
+    width: 100%;
+    position: fixed;
+    top: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    font-family: "Mulish", sans-serif;
+    z-index: 50;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navigation-links nav {
+    display: flex;
+    gap: 60px;
+}
+
+.navigation-links a {
+    text-decoration: none;
+    font-size: 23px;
+    color: #007f7f;
+    transition: all 0.2s ease;
+}
+
+.navigation-links a.active,
+.navigation-links a:hover {
+    transform: scale(1.15);
+    color: #bc0000;
+    font-weight: 600;
+}
+
+
+/* Banner Image */
+
+.header-image-container {
+    position: relative;
+    margin-top: 200px;
+}
+
+.header-image-container :nth-child(1) {
+    position: absolute;
+    color: blue;
+    /* you had blue here */
+    font-weight: 800;
+    left: 200px;
+    top: 60px;
+    font-size: 70px;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 770;
+}
+
+.header-image-container :nth-child(2) {
+    position: absolute;
+    top: 180px;
+    font-size: 250px;
+    left: 70px;
+    color: #023202;
+    /* rich forest green from your gradient */
+}
+
+.header-image-container :nth-child(3) {
+    position: absolute;
+    top: 360px;
+    font-size: 50px;
+    left: 240px;
+    color: #052c07;
+    /* medium dark green */
+}
+
+.header-image-container img:nth-child(4) {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    opacity: 0.40;
+}
+
+.header-image-container img:nth-child(5):hover {
+    transform: translateY(-20px);
+    transition: 0.5s ease;
+    overflow: hidden;
+}
+
+.header-image-container img:nth-child(5) {
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    width: 1100px;
+    height: 720px;
+    z-index: 1;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Know your Health</title>
+    <link rel="stylesheet" href="Gstyles2.css">
+    <link rel="stylesheet" href="KYH.css" />
+    <link rel="stylesheet" href="KYH2.css" />
+    <link rel="stylesheet" href="Gstyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Oswald:wght@700&display=swap" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <!--HEAD SECTION-->
+
+
+    <header>
+        <div class="header-container">
+            <h2>KYH</h2>
+            <marquee width="200px">
+                <h1>Know Your Health</h1>
+            </marquee>
+            <div class="LogReg">
+                <h1>Login</h1>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="navigation-links">
+            <nav>
+                <a href="#"><img src="/images/home.png" width="20px" />&nbsp;Home</a>
+                <a href="#Information"><img src="/images/information-button.png" width="20px" />&nbsp;Information</a>
+                <a href="#ScBook"><img src="/images/calendar.png" width="20px" />&nbsp;Schedule Booking</a>
+                <a href="#about"><img src="/images/globe.png" width="20px" />&nbsp;About Us</a>
+                <a href="#Contact"><img src="/images/phone-call.png" width="20px" />&nbsp;Contact</a>
+            </nav>
+        </div>
+    </section>
+    <div class="header-image-container">
+        <h1>Know Your Symtoms<br />Take Control Of Your Health</h1>
+        <h1>Y</h1>
+        <h3>our Health<br />our Knowledge<br />our Power</h3>
+        <img src="/images/WaitingHall.png" alt="ImageError" />
+        <img src="/images/doctors.png" alt="ImageError" />
+    </div>
+
+
+    <!--INFORMATION SECTION-->
+
+
+    <div class="container" id="Information">
+        <h1>INFORMATION</h1>
+        <div class="separator"></div>
+        <div class="info-card">
+            <img src="https://images.cdn-files-a.com/ready_uploads/media/4254219/400_5e709b2fcbc3f.jpg" alt="Medicinal Info" class="info-image">
+            <div class="info-content">
+                <h2>MEDICINAL INFO</h2><br>
+                <span class="info-date">12/4/2025</span><br>
+                <p class="para">Easily search for any medicine to learn about its purpose, dosage, side effects, and the conditions it's used to treat. Our database is regularly updated with verified medical data from reliable sources.</p>
+            </div>
+            <div class="lol">
+                <a href="https://medlineplus.gov/druginformation.html" class="read-more">READ MORE</a>
+            </div>
+        </div>
+        <hr>
+        <div class="info-card">
+            <img src="https://images.cdn-files-a.com/ready_uploads/media/3614206/400_5e2a00e4391e8.jpg" alt="Disease Info" class="info-image">
+            <div class="info-content">
+                <h2>DISEASE INFO</h2><br>
+                <span class="info-date">12/4/2025</span><br>
+                <p class="para">Use this search to explore detailed information about diseases, from common illnesses to rare disorders. Find symptoms, causes, and treatment options—all in one place.</p>
+            </div>
+            <div class="lol">
+                <a href="https://www.mayoclinic.org/diseases-conditions" class="read-more">READ MORE</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--BOOKING SECTION-->
+
+
+    <section class="booking-section" id="ScBook">
+        <h1 class="booking-title">SCHEDULE BOOKING</h1>
+        <hr class="booking-line" />
+
+        <div class="booking-content">
+            <div class="booking-info">
+                <h2 class="booking-subheading">Consult an experienced doctor</h2>
+                <hr />
+                <div class="booking-details">
+                    <img src="/images/doc.jpg" alt="Doctor" class="booking-doctor-img" />
+                    <div class="booking-text">
+                        <p><strong>Category:</strong> Health care</p>
+                        <p><strong>Duration:</strong> 02:30 Hours</p>
+                        <p><strong>Location:</strong> Online / offline</p>
+                        <p><strong>Link Price:</strong> ₹100</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="booking-form-wrapper">
+                <form action="YOUR_SUBMISSION_URL" method="post">
+                    <label for="time" class="form-label">Choose Location</label>
+                    <select id="time" name="time" required class="form-select">
+                        <option>Online</option>
+                        <option>Offline</option>
+                    </select>
+                    <label for="time" class="form-label">Choose Time</label>
+                    <select id="time" name="time" required class="form-select">
+            <option></option>
+            <option>10:00 AM</option>
+            <option>10:30 AM</option>
+            <option>11:00 AM</option>
+            <option>11:30 AM</option>
+            <option>12:00 PM</option>
+            <option>1:00 PM</option>
+            <option>1:30 PM</option>
+            <option>2:00 PM</option>
+            <option>2:30 PM</option>
+            <option>3:00 PM</option>
+            <option>3:30 PM</option>
+          </select>
+
+                    <label for="date" class="form-label">Choose Date</label>
+                    <input type="date" id="date" name="date" min="2025-03-08" required class="form-input2" />
+
+                    <input type="submit" value="Book Appointment" class="booking-submit-btn" />
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!--ABOUT US-->
+
+
+    <div class="container">
+        <h1 id="about">DEVELOPERS (CODECURES)</h1>
+        <div class="developers">
+            <div class="developer">
+                <div class="hat blue"></div>
+                <p>D.S.S.Gangadhara.Prathap</p>
+                <p>BATCH-1</p>
+                <p>23A91A0416</p>
+                <p>ECE-A</p>
+            </div>
+            <div class="developer">
+                <div class="hat gray"></div>
+                <p>BOLLAREDDY PRANOY RAJ</p>
+                <p>BATCH-1</p>
+                <p>23P31A0508</p>
+                <p>CSE</p>
+            </div>
+            <div class="developer">
+                <div class="hat red"></div>
+                <p>IMMIDISETTI SUDHEER</p>
+                <p>BATCH-1</p>
+                <p>23P31A0519</p>
+                <p>CSE</p>
+            </div>
+            <div class="developer">
+                <div class="hat green"></div>
+                <p>PUNYAMANTHULA RAMESH BABU</p>
+                <p>BATCH-1</p>
+                <p>23P31A4263</p>
+                <p>AIML</p>
+            </div>
+            <div class="developer">
+                <div class="hat yellow"></div>
+                <p>VENKAT VARUN KIRLAMPALLI</p>
+                <p>BATCH-1</p>
+                <p>23P31A0597</p>
+                <p>CSE</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

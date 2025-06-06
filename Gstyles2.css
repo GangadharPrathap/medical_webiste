@@ -1,0 +1,71 @@
+        body {
+            font-family: "Montserrat", sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            background: url(https://github.com/GangadharPrathap/FSD-class-codes/blob/main/vecteezy_geometric-hexagon-vector-white-background-technology-wallpaper_24221162.jpg?raw=true);
+        }
+        
+        .container {
+            width: auto;
+            height: auto;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #5c4d7d;
+        }
+        
+        .developers {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+        
+        .developer {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .hat {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 10px;
+            border-radius: 5px;
+            border: 2px solid black;
+            display: flex;
+            justify-self: auto;
+            align-self: auto;
+        }
+        
+        .gray {
+            background: url(https://github.com/GangadharPrathap/medical_webiste/blob/main/pranoy.jpg?raw=true);
+            background-size: cover;
+        }
+        
+        .blue {
+            background: url(https://github.com/GangadharPrathap/medical_webiste/blob/main/mine.jpg?raw=true);
+            background-size: cover;
+        }
+        
+        .red {
+            background: url(https://github.com/GangadharPrathap/medical_webiste/blob/main/sudheer.jpg?raw=true);
+            background-size: cover;
+        }
+        
+        .green {
+            background: url(https://github.com/GangadharPrathap/medical_webiste/blob/main/ramesh.jpg?raw=true);
+            background-size: cover;
+        }
+        
+        .yellow {
+            background: url(https://github.com/GangadharPrathap/medical_webiste/blob/main/venkat.jpg?raw=true);
+            background-size: cover;
+        }

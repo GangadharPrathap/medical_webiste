@@ -1,0 +1,142 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-image: url('https://github.com/GangadharPrathap/FSD-class-codes/blob/main/vecteezy_geometric-hexagon-vector-white-background-technology-wallpaper_24221162.jpg?raw=true');
+}
+
+.booking-section {
+    padding: 60px 20px;
+    background: linear-gradient(to right, #e6f0ff, #ffffff);
+    border-radius: 30px;
+    margin: 40px auto;
+    max-width: 1200px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.booking-title {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #004080;
+    margin-bottom: 10px;
+    transform: scale(1.2);
+}
+
+.booking-line {
+    width: 100px;
+    border: 2px solid #007f7f;
+    margin-bottom: 60px;
+}
+
+.booking-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.booking-info {
+    flex: 1 1 400px;
+    max-width: 500px;
+}
+
+.booking-subheading {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.booking-details {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.booking-doctor-img {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.booking-doctor-img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.booking-text p {
+    margin: 8px 0;
+    font-weight: 600;
+    color: #333;
+    font-size: 22px;
+    width: 300px;
+}
+
+.booking-form-wrapper {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 25px;
+    margin-left: 170px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.form-label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+.form-select,
+.form-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 22px;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    margin-bottom: 12px;
+    transition: 0.3s ease;
+}
+
+.form-input2 {
+    width: 93%;
+    /* 40px is too small for a date input */
+    padding: 8px;
+    font-size: 24px;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+    margin-bottom: 12px;
+    transition: 0.3s ease;
+}
+
+.form-select:focus,
+.form-input:focus {
+    border-color: #007f7f;
+    outline: none;
+}
+
+.booking-submit-btn {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    background-color: #007f7f;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking-submit-btn:hover {
+    background-color: #005f5f;
+}

@@ -1,0 +1,118 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background: url("vecteezy_geometric-hexagon-vector-white-background-technology-wallpaper_24221162.jpg");
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: blue;
+    margin-bottom: 40px;
+}
+
+.container {
+    max-width: 95%;
+    margin: auto;
+    height: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.info-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.info-image {
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    padding: 70px;
+    position: relative;
+    right: 20px;
+    transition: transform 0.3s;
+}
+
+.info-image:hover {
+    transform: scale(1.05);
+}
+
+.info-content {
+    width: auto;
+    height: auto;
+    padding: 15px;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+}
+
+.info-content h2 {
+    font-size: 50px;
+    margin: 0;
+    color: rgb(2, 195, 154);
+}
+
+.info-date {
+    font-size: 20px;
+    color: gray;
+}
+
+.info-content p {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.read-more {
+    margin-top: 10px;
+    background: rgb(2, 195, 154);
+    color: white;
+    padding: 20px 25px;
+    text-decoration: none;
+    border-radius: 4px;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.read-more:hover {
+    background: #4a148c;
+    transform: scale(1.05);
+}
+
+.separator {
+    width: 10%;
+    height: 2px;
+    border-radius: 5%;
+    border: 2px solid brown;
+    background-color: brown;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.para {
+    font-size: 50px;
+    width: 1000px;
+}
+
+.lol {
+    width: auto;
+    height: auto;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+}
