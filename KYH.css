@@ -1,7 +1,7 @@
 
 html {
     scroll-behavior: smooth;
-    
+
 }
 body {
     height: 100%;
@@ -18,7 +18,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 1500;
   font-style: italic;
-    }        
+    }
 /* home */
 .header-container {
     display: flex;
@@ -356,10 +356,10 @@ body {
             background: bisque;
             box-shadow: 0 0 10px white;
             color: #333;
-        }     
+        }
            /* Contact */
-     
-        
+
+
 
 header {
   background: linear-gradient(135deg, #009688, #00bcd4);
@@ -500,7 +500,7 @@ header p {
 }
 /* Information */
 .megas{
-    
+
     font-size: 60px;
     text-align: center;
     position: relative;
@@ -796,7 +796,7 @@ h1 {
 
   footer p:nth-child(2) {
     font-weight: 600;
-    color: #111827; 
+    color: #111827;
     font-size: 18px;
     letter-spacing: 0.02px;
   }
